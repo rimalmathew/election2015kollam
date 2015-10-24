@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.nic.kollam.election15kollam" >
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactsActivity"
+            android:label="@string/title_activity_contacts"
+
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MessageActivity"
+            android:label="@string/title_activity_message"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.MainActivity" />
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:parentActivityName=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ComplaintActivity"
+            android:label="@string/title_activity_complaint"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PollingStationsActivity"
+            android:label="@string/title_activity_polling_stations"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.MainActivity" />
+        </activity>
+        <activity
+            android:name=".contacts"
+            android:parentActivityName=".ContactsActivity" >
+            android:label="@string/title_activity_contacts" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.ContactsActivity" />
+        </activity>
+        <activity
+            android:name=".ImageActivity"
+            android:label="@string/title_activity_image"
+            android:parentActivityName=".InfoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.InfoActivity" />
+        </activity>
+    </application>
+
+</manifest>

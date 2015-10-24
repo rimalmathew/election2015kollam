@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/contactsButton"
+        android:padding="10dp"
+       android:background="@drawable/contact_button"
+        android:layout_gravity="right"
+        android:layout_above="@+id/infoButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/pollingStationsButton"
+        android:padding="10dp"
+        android:background="@drawable/polling_button"
+        android:layout_below="@+id/contactsButton"
+        android:layout_toLeftOf="@+id/contactsButton"
+        android:layout_toStartOf="@+id/contactsButton" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/infoButton"
+        android:padding="10dp"
+        android:background="@drawable/info_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/complaintButton"
+        android:layout_alignStart="@+id/complaintButton" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/complaintButton"
+        android:padding="10dp"
+        android:background="@drawable/complaint_button"
+        android:layout_gravity="right"
+        android:layout_below="@+id/infoButton"
+        android:layout_alignLeft="@+id/contactsButton"
+        android:layout_alignStart="@+id/contactsButton" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/messageButton"
+        android:padding="10dp"
+        android:background="@drawable/message_button"
+        android:layout_below="@+id/contactsButton"
+        android:layout_toRightOf="@+id/infoButton"
+        android:layout_toEndOf="@+id/infoButton" />
+
+
+</RelativeLayout>

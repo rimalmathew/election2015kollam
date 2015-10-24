@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">#2980B9</item>
+    </style>
+
+    <style name="LargeTitleTheme">
+        <item name="android:windowTitleSize">40dip</item>z
+    </style>
+
+</resources>

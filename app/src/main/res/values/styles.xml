@@ -14,7 +14,7 @@
     </style>
 
     <style name="LargeTitleTheme">
-        <item name="android:windowTitleSize">40dip</item>z
+        <item name="android:windowTitleSize">100dip</item>
     </style>
 
 </resources>

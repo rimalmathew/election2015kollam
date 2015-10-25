@@ -13,7 +13,7 @@
         android:id="@+id/sec"
         android:padding="10dp"
         android:background="@drawable/sec_button"
-        android:layout_below="@+id/pokr"
+        android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
         <!--android:layout_alignParentTop="true"-->
@@ -26,8 +26,7 @@
         android:id="@+id/da"
         android:padding="10dp"
         android:background="@drawable/da_button"
-        android:layout_alignBaseline="@+id/pokr"
-        android:layout_alignBottom="@+id/pokr"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
         <!--android:layout_alignParentRight="true"-->
@@ -38,9 +37,9 @@
         android:id="@+id/dew"
         android:padding="10dp"
         android:background="@drawable/dew_button"
-        android:layout_below="@+id/sec"
-        android:layout_alignRight="@+id/da"
-        android:layout_alignEnd="@+id/da" />
+        android:layout_alignTop="@+id/brp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
         <!--android:layout_alignParentRight="true"-->
         <!--android:layout_alignParentEnd="true" />-->
     <Button
@@ -49,7 +48,7 @@
         android:id="@+id/poc"
         android:padding="10dp"
         android:background="@drawable/pokc_button"
-        android:layout_above="@+id/dew"
+        android:layout_alignTop="@+id/sec"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -60,20 +59,18 @@
         android:padding="10dp"
         android:background="@drawable/pokr_button"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="117dp" />
+        android:layout_alignLeft="@+id/sec"
+        android:layout_alignStart="@+id/sec" />
         <!--android:layout_alignParentLeft="true"-->
         <!--android:layout_alignParentStart="true" />-->
 
-    <Button
+   <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/brp"
         android:padding="10dp"
         android:background="@drawable/brp_button"
-        android:layout_alignBaseline="@+id/dew"
-        android:layout_alignBottom="@+id/dew"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
         <!--android:layout_alignParentBottom="true"-->

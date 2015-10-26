@@ -81,7 +81,6 @@ public class ContactsActivity extends Activity {
                     "('Shri SOMASUNDARAN PILLAI', 'Tahsildar, Kottarakkara', '9447184623'),\n" +
                     "('Shri PRADEEP KUMAR', 'Tahsildar, Pathanapuram', '9447191605'),\n" +
                     "('Shri B. SASIKUMAR', 'Tahsildar, Punalur', '9544715555'),\n" +
-                    "('Shri D.R.SABU', 'Asst.District Information Officer', '9847020388'),\n" +
                     "('Shri B.K.BALARAJ', 'Rejional Joint Director Urban affairs', '9447653725'),\n" +
                     "('Shri C.R. SURESH', 'Deputy Director of Panchayath Collectorate Kollam', '9496041700'),\n" +
                     "('Shri. JOHNSON PREMKUMAR', 'Asst. Development Commissioner (General) Kollam', '9447768793');\n");
@@ -296,6 +295,20 @@ public class ContactsActivity extends Activity {
                     "('Chavara', 'Shri T.Y.Shiju', 'Senior Clerk', 'Taluk Office Karunagapally', '9995474044', 32),\n" +
                     "('Oachira', 'Shri Unnikrishnan.K', 'Senior Clerk', 'Taluk Office Karuangapally', '9995512035', 33);\n");
 
+
+
+            sb.execSQL("CREATE TABLE IF NOT EXISTS `election_masters_trainer` (\n" +
+                    "  `name` varchar(50),\n" +
+                    "  `designation` varchar(50),\n" +
+                    "  `phone` varchar(50)\n" +
+                    ");");
+            sb.execSQL("INSERT INTO `election_masters_trainer` (`name`, `designation`, `phone`) VALUES\n" +
+                    "('Sri. G.Nirmal Kumar', 'District Nodal officer (Training)', '9447303177'),\n" +
+                    "('Sri.L.S Santhosh Kumar', '', '9497440564'),\n" +
+                    "('Sri.Subhash', '', '9447453160'),\n" +
+                    "('Sri. Sabu', '', '9446180469');");
+
+
         }
         else
         {
@@ -375,6 +388,17 @@ public class ContactsActivity extends Activity {
                 startActivity(i);
             }
         });
+        Button button7= (Button) findViewById(R.id.emt);
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(ContactsActivity.this,contacts.class);
+                i.putExtra("number","7");
+                Log.e("in brp","in brp");
+                startActivity(i);
+            }
+        });
+
 
    /*     ArrayList<String> x=new ArrayList<String>();
         x.add("STATE ELECTION COMMISSION, KERALA ");

@@ -134,6 +134,28 @@ public class contacts extends Activity {
 
 
         }
+        else
+        if(s.equals("7"))
+        {
+            tv.setText("Election Master Trainers");
+
+
+
+
+            Log.d("before select","rs");
+            resultSet = sb.rawQuery("Select * from  election_masters_trainer",null);
+            Log.d("rs","rs");
+            while(resultSet.moveToNext()) {
+
+
+                x.add("\n"+resultSet.getString(0)+"\n"+resultSet.getString(1)+"\n"+resultSet.getString(2)+"\n");
+
+            }
+            Log.d("after select", "main");
+
+        }
+
+
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, simple_list_item_1, x);
 

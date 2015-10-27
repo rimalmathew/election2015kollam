@@ -50,6 +50,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="in.nic.kollam.election15kollam.MainActivity" />
         </activity>
+
+        <activity
+            android:name=".GuideActivity"
+            android:parentActivityName=".MainActivity" >
+            android:label="@string/guide_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.GuideActivity" />
+        </activity>
+        <activity
+            android:name=".GuideImageActivity"
+            android:parentActivityName=".MainActivity" >
+            android:label="@string/guide_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.nic.kollam.election15kollam.GuideImageActivity" />
+        </activity>
+
         <activity
             android:name=".ComplaintActivity"
             android:label="@string/title_activity_complaint"

@@ -3,7 +3,8 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="#ffffff">
+    android:background="@drawable/bg_920"
+    >
 
     <Button
         android:layout_width="100dp"
@@ -22,8 +23,8 @@
         android:padding="10dp"
         android:background="@drawable/polling_button"
         android:layout_below="@+id/contactsButton"
-        android:layout_toLeftOf="@+id/contactsButton"
-        android:layout_toStartOf="@+id/contactsButton" />
+        android:layout_toRightOf="@+id/contactsButton"
+        android:layout_toEndOf="@+id/contactsButton" />
 
     <Button
         android:layout_width="100dp"
@@ -33,8 +34,8 @@
         android:background="@drawable/info_button"
         android:layout_gravity="center_horizontal"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/complaintButton"
-        android:layout_alignStart="@+id/complaintButton" />
+        android:layout_toLeftOf="@+id/contactsButton"
+        android:layout_toStartOf="@+id/contactsButton" />
 
     <Button
         android:layout_width="100dp"
@@ -43,9 +44,9 @@
         android:padding="10dp"
         android:background="@drawable/complaint_button"
         android:layout_gravity="right"
-        android:layout_below="@+id/infoButton"
-        android:layout_alignLeft="@+id/contactsButton"
-        android:layout_alignStart="@+id/contactsButton" />
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/messageButton"
+        android:layout_toEndOf="@+id/messageButton" />
 
     <Button
         android:layout_width="100dp"
@@ -53,9 +54,20 @@
         android:id="@+id/messageButton"
         android:padding="10dp"
         android:background="@drawable/message_button"
-        android:layout_below="@+id/contactsButton"
-        android:layout_toRightOf="@+id/infoButton"
-        android:layout_toEndOf="@+id/infoButton" />
+        android:layout_below="@+id/infoButton"
+        android:layout_alignLeft="@+id/contactsButton"
+        android:layout_alignStart="@+id/contactsButton" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/guideButton"
+        android:padding="10dp"
+        android:background="@drawable/guidesmall"
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/complaintButton"
+        android:layout_toLeftOf="@+id/messageButton"
+        android:layout_toStartOf="@+id/messageButton" />
 
 
 </RelativeLayout>

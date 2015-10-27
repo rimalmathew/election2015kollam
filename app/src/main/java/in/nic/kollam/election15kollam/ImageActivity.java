@@ -169,7 +169,7 @@ public class ImageActivity extends Activity {
         image[66] = R.drawable.slide67;
         image[67] = R.drawable.slide68;
         image[68] = R.drawable.slide69;
-        image[69] = R.drawable.slide70;
+
         iv.setImageResource(image[temp]);
 
     }

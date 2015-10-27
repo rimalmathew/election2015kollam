@@ -55,6 +55,14 @@ public class MainActivity extends Activity {
                 startActivity(infoIntent);
             }
         });
+        Button guideButton= (Button) findViewById(R.id.guideButton);
+        guideButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent guideIntent = new Intent(MainActivity.this, GuideActivity.class);
+                startActivity(guideIntent);
+            }
+        });
 
         Button pollingStationsButton= (Button) findViewById(R.id.pollingStationsButton);
         pollingStationsButton.setOnClickListener(new View.OnClickListener() {

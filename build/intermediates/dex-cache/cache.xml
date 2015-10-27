@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/home/rimal/AndroidStudioProjects/Election&apos;15Kollam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/home/rimal/AndroidStudioProjects/Election&apos;15Kollam/app/build/intermediates/pre-dexed/debug/classes-9119dd41e9c1aec43c01c72e5fc4566c20bdd2ec.jar" />
-    </item>
-    <item
-        jar="/home/rimal/AndroidStudioProjects/Election&apos;15Kollam/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jar="C:\Users\Akhil\Desktop\Election&apos;15Kollam\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/home/rimal/AndroidStudioProjects/Election&apos;15Kollam/app/build/intermediates/pre-dexed/debug/classes-65eab82f6da130694ea5f5f64a2c646821667600.jar" />
+        <dex dex="C:\Users\Akhil\Desktop\Election&apos;15Kollam\app\build\intermediates\pre-dexed\debug\classes-ed1b042bcf45ca31721e669f2e98e5243e590f2e.jar" />
     </item>
     <item
-        jar="/home/rimal/AndroidStudioProjects/Election&apos;15Kollam/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jar="C:\Users\Akhil\Desktop\Election&apos;15Kollam\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/home/rimal/AndroidStudioProjects/Election&apos;15Kollam/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-08c1785329d77a5cc2671aebc22a95ece243cb8b.jar" />
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\Akhil\Desktop\Election&apos;15Kollam\app\build\intermediates\pre-dexed\debug\classes-57120162b3e8cdc84cde44d0edb3a31fe4830dd2.jar" />
     </item>
     <item
-        jar="/home/rimal/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jar="E:\SDK\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/home/rimal/AndroidStudioProjects/Election&apos;15Kollam/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-3bed0a70f3460d3985193ee777b1b5dec9f4f92f.jar" />
+        <dex dex="C:\Users\Akhil\Desktop\Election&apos;15Kollam\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-45e4e870dc1445f7e1254e7de9a3aa7d8bf75ab8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Akhil\Desktop\Election&apos;15Kollam\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\Akhil\Desktop\Election&apos;15Kollam\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-ce2c4206f667094b388121fb310f2c6e95fa6bc4.jar" />
     </item>
 
 </items>
